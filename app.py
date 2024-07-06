@@ -4,7 +4,7 @@ import csv
 import pickle
 import math
 
-df_delivery = pd.read_csv('both-together/estimation_cleaned.csv')
+df_delivery = pd.read_csv('estimation_cleaned.csv')
 
 def prediction(warehouse_id1, pincode_id1):
     zone1 = int(pincode_id1 / 100000)
@@ -59,7 +59,7 @@ def predict(pincode, warehouse, list_of_codes):
     # Prepare your new test samples (X_new)
     # Ensure X_new has the same format (features and order) as your training data (X_train)
 
-    X_test = pd.read_csv("both-together\output.csv")
+    X_test = pd.read_csv("output.csv")
     y_pred = xgb_model.predict(X_test)
 
     # Print the predictions or use them for further analysis
@@ -93,7 +93,7 @@ def main():
             st.warning('Please enter valid inputs.')
 
     if(st.button('Display code legend.')):
-        df = pd.read_csv("both-together\potential red codes.csv")
+        df = pd.read_csv("potential red codes.csv")
         st.write(df)
 
 
