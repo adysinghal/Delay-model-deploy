@@ -1,0 +1,113 @@
+Code,Meaning
+
+'X-UNEX',Unexpected scan
+'DLYLH-105',Vehicle delayed
+'S-MAR',Air-restricted product. Move by surface
+'DTUP-231',Center changed by system
+'CS-101',Inbound against permanent connection [custody scan]
+'CS-104',Outbound against permanent connection [custody scan]
+'DLYSHRTBAG-115',Short Bag
+'EOD-6O',Code verified cancellation
+'EOD-11',Consignee Unavailable
+'DLYLH-126',On hold. Destination unable to receive
+'DLYLH-133',Air Offload - airline capacity constraint
+'EOD-148',Consignee unavailable. Establishment closed
+'DLYLH-136',Airport retrieval delay
+'DLYMR-118',Misrouted
+'DLYRG-125',Delayed. Local disturbance/strike
+'DTUP-205',Package details changed by Delhivery
+'EOD-105',Shipment seized by consignee
+'EOD-137',Code Mismatch
+'EOD-86',Not attempted
+'DLYLH-106',Transit Delay
+'X-DBFR',Bag Discarded
+'DLYLH-115',Air Offload - Security
+'EOD-3',Delivery Rescheduled by Customer 5-4-2023 OTP Verified - Call connected Valid Number Geofence NA
+'DLYLH-152',Delayed. No Entry
+'DTUP-219',Pincode updated by Addfix
+'DLYB2B-108',Consignee not reachable/Contact details unavailable
+'FMEOD-152',Shipment not ready for pickup
+'RT-108',No client instructions to Reattempt
+'ST-108',Maximum attempts reached
+'ST-107',Reattempt as per Client's instruction
+'ST-115',Agent remark verified
+'DLYDC-107',Office/Institute closed
+'EOD-138',Consignee did not receive the Code
+'EOD-6',Consignee refused to accept/order cancelled
+'EOD-111',Consignee opened the package and refused to accept
+'DLYDC-101',Delayed due to weather conditions
+'DOFF-128',Transit Delay
+'EOD-74', Bad/Incomplete address
+'X-PNP',Shipment not received from client
+'DTUP-210',Seller cancelled the order
+'RT-113',Returned as per Security Instructions
+'DLYSOR-101',Shipment sorter downtime
+'RT-101',Returned as per Client Instructions
+'ST-117',NDR Call - FE remark correct
+'DTUP-204',Status Changed
+'DLYRG-135',Short Shipment
+'ST-110',Unlock
+'DLYHD-007',Held for consolidation
+'DLYLH-104',Flight cancelled
+'DLYSU-100',NTD Updated
+'ST-116',Agent remark incorrect
+'DLYLH-151',Vehicle Accident
+'ST-NTL',NDR Call- No Customer response
+'ST-102',Bad/Incomplete Address
+'DTUP-207',Re-routed
+'EOD-36',Delivered to other as instructed by consignee
+'DLYRG-130',Regional holiday
+'X-SC',Consignee to collect from branch
+'EOD-37',Delivered at Mailroom/Security
+'LT-100',Shipment LOST
+'EOD-104',Entry restricted area
+'ST-NT',NDR call not received by customer
+'DTUP-235',Returned. Ageing limit crossed
+'ST-105',Reattempt - As per NDR instructions
+'CL-106',Damaged shipment to be attempted
+'DLYDG-120',Shipment minor damaged
+'DTUP-213',Scan Bulk Update
+'EOD-69',Customer asked for open delivery
+'ST-120',Maximum attempts reached for self collect
+'RT-109',Returned Due To Poor Packaging
+'DLYDG-119',Shipment damaged
+'EOD-600',Delivered to Courier
+'S-XIN',Scanned Through X-Ray
+'FMEOD-103',Shipper unavailable
+'DLYDC-109',Doubtful Order
+'DLYDC-102',Natural Disaster
+'EOD-43',Consignee will collect from branch
+'DLYLH-146',Appointment awaited from consignee
+'DLYRG-132',"Delay due to Infra issues (IT, Power, HQ, Dock)"
+'DTUP-ZL',Zero liability shipment
+'U-FD',Cleared by security for movement
+'L-FD',On hold. Security investigation underway
+'DLYDC-105',Arrived post Cut Off at Dispatch Center
+'DTUP-209',Return Center Changed
+'DTUP-203',Package details changed by shipper
+'DLYRG-120',On hold. Regulatory inspection underway
+'DLYRPC-417',"""Address on package is different from  HQ address"""
+'EOD-15',Consignee moved. Alternate address required
+'EOD-40',Payment Mode / Amt Dispute
+'DLYB2B-101',Delivery rescheduled based on input from consignee
+'RD-AC',Shipment return accepted
+'RT-110',RTO due to poor packaging
+'S-MDIN',Scanned through Metal Detector
+'DLYLH-101',Vehicle Breakdown
+'X-AWD',Added to Dispatch
+'RD-PD10',Content mismatch
+'FMEOD-106',Pickup not attempted
+'U-PMA',Package Confirmed Not Missing in Audit
+'L-PMA',Package Missing in Audit
+'EOD-83',Damaged/Used Product
+'RD-PD12',Shipment damaged
+'X-RWD',Removed From Dispatch
+'RD-PD22',Client Reject
+'FMEOD-156',Seller Closed
+'DLYSEC-100',Under security investigation
+'RD-PD7',Short shipment
+'PNP-101',Package not picked/received from client
+'U-EOD',Unlock - Wrong QR Code
+'S-MNAR',Package marked safe for movement by Air
+'EOD-149',On hold. Consignee unable to accept delivery
+'FMEOD-165',Pickup request Cancelled by Customer
