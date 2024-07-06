@@ -4,7 +4,7 @@ import csv
 import pickle
 import math
 
-# df_delivery = pd.read_csv('both-together/estimation_cleaned.csv')
+df_delivery = pd.read_csv('both-together/estimation_cleaned.csv')
 
 def prediction(warehouse_id1, pincode_id1):
     zone1 = int(pincode_id1 / 100000)
@@ -92,9 +92,9 @@ def main():
         else:
             st.warning('Please enter valid inputs.')
 
-    # if(st.button('Display code legend.')):
-        # df = pd.read_csv("both-together\potential red codes.csv")
-        # st.write(df)
+    if(st.button('Display code legend.')):
+        df = pd.read_csv("both-together\potential red codes.csv")
+        st.write(df)
 
 
     st.title('Delivery Estimation Function')
