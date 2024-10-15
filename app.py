@@ -97,25 +97,25 @@ def main():
         st.write(df)
 
 
-    st.title('Delivery Estimation Function')
-    # warehouse_id = st.number_input('Enter Warehouse ID', min_value=1)
-    pincode_id = st.number_input('Enter Pincode ID', min_value=100000, max_value=999999)
-    warehouse_id = st.selectbox(
-   'Warehouse ID',
-   ("14","28","61","66", "68", "86","96","117","134","150","173","175"),
-   index=None,
-   placeholder="select from available warehouses",
-)
+#     st.title('Delivery Estimation Function')
+#     # warehouse_id = st.number_input('Enter Warehouse ID', min_value=1)
+#     pincode_id = st.number_input('Enter Pincode ID', min_value=100000, max_value=999999)
+#     warehouse_id = st.selectbox(
+#    'Warehouse ID',
+#    ("14","28","61","66", "68", "86","96","117","134","150","173","175"),
+#    index=None,
+#    placeholder="select from available warehouses",
+# )
 
-    if st.button('Predict Delivery Time'):
-        if warehouse_id and pincode_id:
-            delivery_time = prediction(warehouse_id, pincode_id)
-            if delivery_time:
-                st.success(f'Estimated Delivery Time: {delivery_time} days')
-            else:
-                st.warning('No matching data found for the given inputs.')
-        else:
-            st.warning('Please enter valid inputs.')
+#     if st.button('Predict Delivery Time'):
+#         if warehouse_id and pincode_id:
+#             delivery_time = prediction(warehouse_id, pincode_id)
+#             if delivery_time:
+#                 st.success(f'Estimated Delivery Time: {delivery_time} days')
+#             else:
+#                 st.warning('No matching data found for the given inputs.')
+#         else:
+#             st.warning('Please enter valid inputs.')
 
 
 if __name__ == '__main__':
